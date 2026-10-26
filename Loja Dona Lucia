@@ -1,0 +1,81 @@
+algoritmo"cafeDonaLucia"
+
+
+
+var
+
+  usu,cli:caractere
+
+  valor,pag,troco,taxa,total:real
+
+
+
+inicio
+
+  escreval("_________________________")
+
+  escreval("_______CAFE DONA L.______")
+
+  escreval("_________________________")
+
+  escreval("Usúario: ")
+
+  leia(usu)
+
+  limpatela
+
+  escreval("_________________________")
+
+  escreval("_______CAFE DONA L.______")
+
+  escreval("_________________________")
+
+  escreval("Bem Vindo ", usu)
+
+  escreval("Cliente: ")
+
+  leia(cli)
+
+  escreval("Valor Total consumido: ")
+
+  leia(valor)
+
+  escreval("Valor Pago : ")
+
+  leia(pag)
+
+  limpatela
+
+  escreval("_________________________")
+
+  escreval("_______CAFE DONA L.______")
+
+  escreval("_________________________")
+
+  valor <- valor + (valor * 10 / 100)
+
+  total <- Valor 
+
+  troco<- pag - total 
+
+  limpatela
+
+  escreval("_________________________")
+
+  escreval("_______CAFE DONA L.______")
+
+  escreval("_________________________")
+
+  escreval("valor total + taxa do garçom: ",total)
+
+  escreval("valor Pago : " ,pag)
+
+  escreval("Troco: ",troco)
+
+  escreval("_________________________")
+
+  escreval("_______CAFE DONA L.______")
+
+  escreval("MUITO OBRIGADO VOLTE SEMPRE!!!!")
+
+fimalgoritmo
